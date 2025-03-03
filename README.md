@@ -4,7 +4,7 @@
 AUDI UTR Dashcam uses the same default credentials for all devices and does not implement proper multi-device authentication, allowing attackers to deny the owner access by occupying the only available connection. The SSID remains broadcast at all times, increasing exposure to potential attacks.
 
 ## Finding 2: Hardcoded Credentials in AUDI Universal Traffic Recorder App
-Hardcoded FTP Credentials in AUDI Universal Traffic Recorder App - AUDI UTR Dashcam’s companion app contains hardcoded FTP credentials, allowing unauthorized attackers to gain access to the dashcam’s network and functions.
+AUDI UTR Dashcam’s companion app contains hardcoded FTP credentials, allowing unauthorized attackers to gain access to the dashcam’s network and functions.
 The application contains a hardcoded password ("wificam") that can be easily retrieved by searching the APK for "password".
 
 ## Finding 3: RTSP and FTP wide open

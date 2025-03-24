@@ -1,6 +1,6 @@
 # Audi UTR Dashcam
 
-## Finding 1: Audi UTR Susceptibility to DoS
+## Finding 1 - CVE-2025-30118: Audi UTR Susceptibility to DoS
 AUDI UTR Dashcam uses the same default credentials for all devices and does not implement proper multi-device authentication, allowing attackers to deny the owner access by occupying the only available connection. The SSID remains broadcast at all times, increasing exposure to potential attacks.
 
 ## Finding 2 - CVE-2025-2555: Hardcoded Credentials in AUDI Universal Traffic Recorder < App v2.89
